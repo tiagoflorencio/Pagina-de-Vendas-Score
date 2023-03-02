@@ -1,0 +1,32 @@
+:root {
+  --color-primary: rgba(207, 15, 128, 0.973);
+}
+
+body {
+  background-color: var(--color-primary);
+  font-family: inter;
+}
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 700;
+}
+#section-2 i {
+  font-size: 100px;
+  color: var(--color-primary);
+}
+
+.fa-dollar-sign {
+  color: gold;
+}
+
+.section-white {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.section-primary {
+  background-color: var(--color-primary);
+  height: 100%;
+}
