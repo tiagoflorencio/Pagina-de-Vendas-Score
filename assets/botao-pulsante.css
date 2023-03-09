@@ -39,6 +39,47 @@
   border-color: var(--secondary-color);
 }
 
+.botao-pulse-2 {
+  border-radius: 26px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-color);
+  width: fit-content !important;
+
+  -webkit-animation: pulse 1s ease infinite;
+  -moz-animation: pulse 1s ease infinite;
+  -ms-animation: pulse 1s ease infinite;
+  -o-animation: pulse 1s ease infinite;
+  animation: pulse 1s ease infinite;
+}
+
+.botao-pulse-2:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border-color: var(--secondary-color);
+}
+
+.botao-pulse-3 {
+  border-radius: 26px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border-color: var(--secondary-color);
+  width: fit-content !important; 
+    justify-content: center;
+
+  -webkit-animation: pulse 1s ease infinite;
+  -moz-animation: pulse 1s ease infinite;
+  -ms-animation: pulse 1s ease infinite;
+  -o-animation: pulse 1s ease infinite;
+  animation: pulse 1s ease infinite;
+}
+
+.botao-pulse-3:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-color);
+}
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);

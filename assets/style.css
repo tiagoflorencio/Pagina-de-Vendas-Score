@@ -1,5 +1,6 @@
 :root {
   --color-primary: rgba(207, 15, 128, 0.973);
+  --color-secondary: #313b6e;
 }
 
 body {
@@ -18,15 +19,45 @@ h2 {
 }
 
 .fa-dollar-sign {
-  color: gold;
+  color: gold !important;
 }
 
 .section-white {
-  background-color: #fff;
-  height: 100vh;
+  background-color: #fff;  
 }
 
 .section-primary {
   background-color: var(--color-primary);
   height: 100%;
+}
+
+.img-dep {
+  width: 200px;
+  border-radius: 50%;
+  margin: 16px;
+  height: 200px;
+}
+
+.titulo-1{  
+    text-decoration: underline 5px #d01683;
+    text-underline-offset: 10px;  
+    line-height: 36px;
+    
+}
+
+.card-dep{
+  padding: 10px;
+  min-height: 303px;
+  border-radius: 20px;
+  margin: 10px 25px;
+
+  border: solid 2px var(--color-primary);
+  -webkit-box-shadow: 2px 4px 15px -2px rgba(20, 60, 86, 1);
+  -moz-box-shadow: 2px 4px 15px -2px rgba(20, 60, 86, 1);
+  box-shadow: 2px 4px 15px -2px rgba(20, 60, 86, 1);
+}
+.card-dep:hover{
+  /* -webkit-transform: scale(1.01); */
+  -webkit-transform: rotate(0.5deg);
+ 
 }
