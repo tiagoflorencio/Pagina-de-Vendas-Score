@@ -18,7 +18,7 @@ h2 {
 }
 #section-2 i {
   font-size: 100px;
-  color: var(--lilas-escuro);
+  color: var(--color-primary);
 }
 
 .fa-dollar-sign {
