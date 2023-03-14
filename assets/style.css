@@ -1,6 +1,9 @@
 :root {
-  --color-primary: rgba(207, 15, 128, 0.973);
-  --color-secondary: #313b6e;
+  --color-primary: #f92582;
+  --rosa-2: #ff80c0;
+  --lilas-1: #b22787;
+  --lilas-escuro: #71207a;
+  --color-secondary: #024793;
 }
 
 body {
@@ -15,7 +18,7 @@ h2 {
 }
 #section-2 i {
   font-size: 100px;
-  color: var(--color-primary);
+  color: var(--lilas-escuro);
 }
 
 .fa-dollar-sign {
@@ -23,7 +26,7 @@ h2 {
 }
 
 .section-white {
-  background-color: #fff;  
+  background-color: #fff;
 }
 
 .section-primary {
@@ -38,14 +41,13 @@ h2 {
   height: 200px;
 }
 
-.titulo-1{  
-    text-decoration: underline 5px #d01683;
-    text-underline-offset: 10px;  
-    line-height: 36px;
-    
+.titulo-1 {
+  text-decoration: underline 5px #d01683;
+  text-underline-offset: 10px;
+  line-height: 36px;
 }
 
-.card-dep{
+.card-dep {
   padding: 10px;
   min-height: 303px;
   border-radius: 20px;
@@ -56,8 +58,58 @@ h2 {
   -moz-box-shadow: 2px 4px 15px -2px rgba(20, 60, 86, 1);
   box-shadow: 2px 4px 15px -2px rgba(20, 60, 86, 1);
 }
-.card-dep:hover{
+.card-dep:hover {
   /* -webkit-transform: scale(1.01); */
   -webkit-transform: rotate(0.5deg);
- 
+}
+
+.texto-riscado {
+  text-decoration: line-through;
+}
+
+.fs-g {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.foto-home {
+  box-shadow: 0px 0px 34.3px rgba(0, 0, 0, 0.156),
+    0px 0px 38.1px rgba(0, 0, 0, 0.257), 0px 0.4px 37.6px rgba(0, 0, 0, 0.281),
+    0px 2.1px 36px rgba(0, 0, 0, 0.264), 0px 3.3px 35.5px rgba(0, 0, 0, 0.324),
+    0px 4px 46px rgba(0, 0, 0, 0.48);
+  border-radius: 5%;
+  /* margin-top: 53px; */
+}
+
+.logo {
+  max-height: 450px;
+  border-radius: 33px;
+}
+
+.btn-outline-secondary {
+  background-color: var(--color-secondary) !important;
+  color: #fff;
+  border: var(--color-secondary);
+}
+
+.btn-outline-secondary:hover {
+  -webkit-transform: scale(1.05);
+  background-color: #71207a !important;
+}
+
+.div-1 {
+  min-height: 160px;
+  min-width: 80%;
+  border-radius: 20px;
+}
+
+.logo-t {
+  max-height: 260px;
+}
+
+@media (max-width: 768px) {
+  #btn-pulse {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+  }
 }
