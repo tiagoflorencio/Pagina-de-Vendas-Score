@@ -21,6 +21,10 @@ h2 {
   color: var(--color-primary);
 }
 
+.text-gold {
+  color: gold !important;
+}
+
 .text-secondary {
   color: var(--color-secondary) !important;
 }
@@ -74,8 +78,6 @@ h2 {
 .fs-g {
   font-size: 60px;
   font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 15px;
 }
 
 .foto-home {
@@ -111,6 +113,10 @@ h2 {
 
 .logo-t {
   max-height: 260px;
+}
+
+.fav-icon {
+  border-radius: 50% ;
 }
 
 @media (max-width: 768px) {
